@@ -37,7 +37,7 @@ while True:
             print(lose)
             computer_point += 1
     elif player == "End":
-        print(f"--Final Scores--\ncomputer score = {computer_point}\nPlayer score = {player_point}")
+        print(f"--Results--\ncomputer score = {computer_point}\nYour score = {player_point}")
         if computer_point > player_point:
             print("\033[31;1mYou Lose :(")
         elif computer_point < player_point:
